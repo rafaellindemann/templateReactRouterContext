@@ -1,0 +1,7 @@
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    min-width: 100vw;
+}
