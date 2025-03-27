@@ -1,5 +1,5 @@
 import Navbar from "../components/Navbar"
-import { useContext, useState } from "react"
+import { useContext } from "react"
 import { GlobalContext } from "../contexts/GlobalContext"
 import { useNavigate } from 'react-router-dom';
 function Home() {
