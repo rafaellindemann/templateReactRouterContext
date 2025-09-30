@@ -8,7 +8,7 @@ Ideal para usar como base para começar um projeto React depois do almoço.
 
 ---
 
-Este documento descreve o procedimento para criar um template para router e context no React. O foco é na estrutura agnóstica de conteúdo, usando as páginas **`Home`**, **`Pagina1`**, **`Pagina2`**, e **`Pagina3`** como exemplos.
+Este documento descreve o procedimento para criar um template para router e context no React. O foco é na estrutura agnóstica de conteúdo, usando as páginas **`Home`**, **`Pagina1`**, **`Pagina2`**, e **`Pagina3`** como exemplos. Este repositório apresenta o template já construído e com uma leve demonstração :D
 
 ---
 
