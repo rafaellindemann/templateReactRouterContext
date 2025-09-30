@@ -182,3 +182,6 @@ function Home() {
 }
 // ...
 ```
+
+---
+Para uma explicação mais delicinha e detalhada do que tem em cada arquivo e o que eles fazem, dá uma espiada neste documento: [https://rafaellindemann.notion.site/Router-e-context-27ed393ff68e80868187e1176940b31a?pvs=74](https://rafaellindemann.notion.site/Router-e-context-27ed393ff68e80868187e1176940b31a?pvs=74)
