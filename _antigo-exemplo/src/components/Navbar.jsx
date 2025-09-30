@@ -4,9 +4,9 @@ function Navbar() {
   return (
     <nav className="navbar">
         <Link to="/">Home</Link>
-        <Link to="/pagina1">Página 1</Link>
-        <Link to="/pagina2">Página II</Link>
-        <Link to="/pagina3">Página três</Link>
+        <Link to="/contato">Contato</Link>
+        <Link to="/generica">Genérica</Link>
+        <Link to="/final">Final</Link>
     </nav>
   )
 }
