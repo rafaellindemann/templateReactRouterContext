@@ -1,31 +1,22 @@
-import Navbar from "../components/Navbar"
-import { useContext, useState } from "react"
-import { GlobalContext } from "../contexts/GlobalContext"
-import { useNavigate } from 'react-router-dom';
+import { useContext } from 'react'
+import Navbar from '../components/Navbar'
+import { GlobalContext } from '../contexts/GlobalContext'
+import { useNavigate } from 'react-router-dom'
+
+
 function Home() {
-    const {usuarioLogado, setUsuarioLogado, idadeUsuario} = useContext(GlobalContext)
-    const navigate = useNavigate(); // Hook para navegação 
+    const{ usuario } = useContext(GlobalContext)
+    const navigate = useNavigate()
 
-    function logar(){
-      // processo de validação do usuário
-      let nome = prompt("Username: ")
-      let senha = prompt("Senha: ")
-      if(senha == '1235'){
-        setUsuarioLogado(nome)
-        navigate('/final');
-      }else{
-        alert("Erro 403")
-      }
+    function testarNavigate(){
+        navigate('/pagina3')
     }
-
   return (
-    <div>
+    <div className='container-home'>
         <Navbar />
-      <h1>Página home do site</h1>
-      <p>Olá {usuarioLogado}, {idadeUsuario} anos</p>
-
-      <button onClick={logar}>Login</button>
-
+        <h1>Home/demo</h1>
+        <p>Usuário: {usuario}</p>
+        <button onClick={testarNavigate}>Testar navigate</button>
     </div>
   )
 }

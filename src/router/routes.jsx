@@ -1,14 +1,14 @@
 import { createBrowserRouter } from "react-router-dom"; 
 import Home from "../pages/Home";
-import Contato from "../pages/Contato";
-import Generica from "../pages/Generica";
-import Final from "../pages/Final";
+import Pagina1 from "../pages/Pagina1";
+import Pagina2 from "../pages/Pagina2";
+import Pagina3 from "../pages/Pagina3";
 
 const router = createBrowserRouter([
     {path: "/", element: <Home />},
-    {path: "/contato", element: <Contato />},
-    {path: "/generica", element: <Generica />},
-    {path: "/final", element: <Final />},
+    {path: "/Pagina1", element: <Pagina1 />},
+    {path: "/pagina2", element: <Pagina2 />},
+    {path: "/pagina3", element: <Pagina3 />},
 ])
 
 export default router;
