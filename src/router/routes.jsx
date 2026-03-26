@@ -6,7 +6,7 @@ import Pagina3 from "../pages/Pagina3";
 
 const router = createBrowserRouter([
     {path: "/", element: <Home />},
-    {path: "/Pagina1", element: <Pagina1 />},
+    {path: "/pagina1", element: <Pagina1 />},
     {path: "/pagina2", element: <Pagina2 />},
     {path: "/pagina3", element: <Pagina3 />},
 ])
